@@ -1,5 +1,30 @@
-package org.example;public class Main {
+package org.example;
+
+public class Main {
     public static void main(String[] args) {
-        System.out.println("Hello world!");
+        getOutput(firstTask());
+        getOutput(secondTask());
+        getOutput(thirdTask());
+    }
+
+
+    public static StringBuilder firstTask() {
+        return DataHandler.numeration(DataHandler.correct(DataRecord.firstRecord()));
+    }
+
+    public static StringBuilder secondTask() {
+        return DataHandler.numeration(DataHandler.removeWord(DataRecord.secondRecord(), "onion"));
+    }
+
+    public static StringBuilder thirdTask() {
+        return Util.searchName();
+    }
+
+    public static void getOutput(StringBuilder s) {
+        System.out.println(s);
+        System.out.println();
     }
 }
+
+
+

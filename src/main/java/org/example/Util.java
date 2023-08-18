@@ -20,7 +20,7 @@ public class Util {
     // Шукає ім'я у мапі з підрахунком кількості входжень
     public static StringBuilder searchName() {
         // Отримання мапи з підрахунком кількості імен
-        Map<String, Integer> nameCountMap = countNames(DataRecord.thirdRecord());
+        Map<String, Integer> nameCountMap = countNames(DataProvider.thirdRecord());
 
         // Зчитування імені для пошуку вводу від користувача
         String name = enterName();

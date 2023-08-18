@@ -3,7 +3,7 @@ package org.example;
 import java.util.ArrayList;
 import java.util.List;
 
-public class DataRecord {
+public class DataProvider {
     public static List<String> firstRecord(){
         List<String> words = new ArrayList<>();
         words.add("brange");

@@ -9,11 +9,11 @@ public class Main {
 
 
     public static StringBuilder firstTask() {
-        return DataHandler.numeration(DataHandler.correct(DataProvider.firstRecord()));
+        return DataHandler.numList(DataHandler.correct(DataProvider.firstRecord()));
     }
 
     public static StringBuilder secondTask() {
-        return DataHandler.numeration(DataHandler.removeWord(DataProvider.secondRecord(), "onion"));
+        return DataHandler.numList(DataHandler.removeWord(DataProvider.secondRecord(), "onion"));
     }
 
     public static StringBuilder thirdTask() {

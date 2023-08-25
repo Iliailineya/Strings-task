@@ -7,7 +7,6 @@ public class Main {
         getOutput(thirdTask());
     }
 
-
     public static StringBuilder firstTask() {
         return DataHandler.numList(DataHandler.correct(DataProvider.firstRecord()));
     }
